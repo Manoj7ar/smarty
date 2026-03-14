@@ -1,0 +1,12 @@
+type: plugin4
+name: SmartThingsMxConsole
+displayName: SmartThings MX Console
+description: Browse SmartThings scenes and devices from Logitech MX Creative Console.
+pluginFileName: SmartThingsMxConsolePlugin.dll
+version: 0.1.0
+author: OpenAI
+minimumLoupedeckVersion: 6.0
+pluginFolderWin: bin
+pluginFolderMac: bin
+supportedDevices:
+  - LoupedeckCtFamily
