@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "deviceId": "device-1",
+      "name": "Living Room TV",
+      "label": "TV",
+      "components": [
+        {
+          "id": "main",
+          "capabilities": [
+            {
+              "id": "switch",
+              "version": 1
+            },
+            {
+              "id": "mediaPlayback",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "speaker",
+          "capabilities": [
+            {
+              "id": "audioVolume",
+              "version": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
