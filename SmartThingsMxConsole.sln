@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DADE4BC7-0F6C-4426-9F82-4932E8FF19CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "src\Core\Core.csproj", "{020F4D11-360C-459F-9D6C-D7CD85EE14F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartThingsClient", "src\SmartThingsClient\SmartThingsClient.csproj", "{02485963-5548-4748-A093-CDD42FFC00E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin", "src\Plugin\Plugin.csproj", "{93C8498A-BD62-49BF-A504-69F3BCC7213D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BD9F8136-8419-4543-8E27-08B46CAC2D26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartThingsMxConsole.Tests", "tests\SmartThingsMxConsole.Tests\SmartThingsMxConsole.Tests.csproj", "{5EFEA3CF-A68C-4AF7-A751-87ADB0A2A40A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{020F4D11-360C-459F-9D6C-D7CD85EE14F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020F4D11-360C-459F-9D6C-D7CD85EE14F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020F4D11-360C-459F-9D6C-D7CD85EE14F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020F4D11-360C-459F-9D6C-D7CD85EE14F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02485963-5548-4748-A093-CDD42FFC00E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02485963-5548-4748-A093-CDD42FFC00E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02485963-5548-4748-A093-CDD42FFC00E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02485963-5548-4748-A093-CDD42FFC00E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93C8498A-BD62-49BF-A504-69F3BCC7213D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C8498A-BD62-49BF-A504-69F3BCC7213D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C8498A-BD62-49BF-A504-69F3BCC7213D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C8498A-BD62-49BF-A504-69F3BCC7213D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EFEA3CF-A68C-4AF7-A751-87ADB0A2A40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EFEA3CF-A68C-4AF7-A751-87ADB0A2A40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EFEA3CF-A68C-4AF7-A751-87ADB0A2A40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EFEA3CF-A68C-4AF7-A751-87ADB0A2A40A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{020F4D11-360C-459F-9D6C-D7CD85EE14F5} = {DADE4BC7-0F6C-4426-9F82-4932E8FF19CF}
+		{02485963-5548-4748-A093-CDD42FFC00E1} = {DADE4BC7-0F6C-4426-9F82-4932E8FF19CF}
+		{93C8498A-BD62-49BF-A504-69F3BCC7213D} = {DADE4BC7-0F6C-4426-9F82-4932E8FF19CF}
+		{5EFEA3CF-A68C-4AF7-A751-87ADB0A2A40A} = {BD9F8136-8419-4543-8E27-08B46CAC2D26}
+	EndGlobalSection
+EndGlobal
