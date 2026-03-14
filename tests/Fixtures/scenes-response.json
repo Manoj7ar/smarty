@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "sceneId": "scene-1",
+      "sceneName": "Movie Time",
+      "locationId": "loc-1"
+    },
+    {
+      "sceneId": "scene-2",
+      "sceneName": "Good Night",
+      "locationId": "loc-1"
+    }
+  ]
+}
