@@ -1,0 +1,6 @@
+{
+  "providerName": "PAT",
+  "refreshInterval": "00:00:15",
+  "pollAssignedDevicesOnly": true,
+  "favorites": []
+}
